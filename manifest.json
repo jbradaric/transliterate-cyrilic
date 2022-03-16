@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Transliterate Serbian Cyrilic to Latin",
+  "version": "1.0",
+
+  "description": "Add a context menu option which transliterates Serbian cyrilic text on the current page to latin.",
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}
